@@ -1,0 +1,9 @@
+[package]
+name = "ecp"
+version = "0.1.0"
+authors = ["Nemec Lukas <lukas.nemec2@firma.seznam.cz>"]
+
+[dependencies]
+argparse = "*"
+tempdir = "*"
+tempfile = "*"
