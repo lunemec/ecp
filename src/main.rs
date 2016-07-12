@@ -1,5 +1,7 @@
 extern crate argparse;
 
+use std::path::Path;
+
 use argparse::{ArgumentParser, StoreTrue, Store};
 
 mod check;
@@ -24,4 +26,8 @@ fn parse_args() {
 
 fn main() {
     parse_args();
+
+    let src = Path::new("/home/");
+    let checks = check::check_before_copy(&src);
+    println!("Checky? {}", checks);
 }
