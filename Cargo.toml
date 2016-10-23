@@ -4,6 +4,6 @@ version = "0.1.0"
 authors = ["Nemec Lukas <lukas.nemec2@firma.seznam.cz>"]
 
 [dependencies]
-argparse = "*"
-tempdir = "*"
-tempfile = "*"
+clap = "2.11.3"
+nanomsg = "0.6.0"
+rustc-serialize = "0.3"
